@@ -16,6 +16,5 @@
 
 @media screen and (max-width: 320px) {
     .place__paragraph:last-child {
-        margin-bottom: 0;
     }
 }
