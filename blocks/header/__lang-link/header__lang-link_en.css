@@ -1,0 +1,19 @@
+.header__lang-link_en {
+    text-align: right;
+    right: 48px;
+    top: 46px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-link_en {
+        right: 24px;
+        top: 46px; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link_en {
+        right: 16px;
+        top: 30px; 
+    }
+}

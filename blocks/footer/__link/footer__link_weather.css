@@ -1,0 +1,12 @@
+.footer__link_weather {
+    left: 68px;
+}
+
+.footer__link_weather:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link_weather {
+        left: 0;
+}

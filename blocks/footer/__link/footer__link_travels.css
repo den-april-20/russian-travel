@@ -1,0 +1,12 @@
+.footer__link_travels {
+    left: 359px;
+}
+
+.footer__link_travels:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link_travels {
+        left: 0;
+}

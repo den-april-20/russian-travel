@@ -1,0 +1,9 @@
+.page {
+    max-width: 1280px;
+    min-width: 300px;
+    font-family: 'Inter-Regular';
+    position: relative;
+    background-color: #2A2C2F;
+    margin: auto;
+    color: white;
+} 

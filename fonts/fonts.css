@@ -1,0 +1,11 @@
+@font-face {
+    src: url('../fonts/Inter-V.ttf');
+    font-family: 'Inter-V';
+    font-style: normal;
+}
+
+@font-face {
+    src: url('../fonts/Inter-Regular.otf');
+    font-family: 'Inter-Regular';
+    font-style: normal;
+}
