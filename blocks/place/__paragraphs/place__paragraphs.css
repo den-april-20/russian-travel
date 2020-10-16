@@ -11,21 +11,22 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place__paragraphs {
         max-width: 456px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place__paragraphs {
         max-width: 352px;
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__paragraphs {
-        max-width: 288px;
+        min-width: 288px;
+        align-self: center;
     }
 }

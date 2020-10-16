@@ -1,5 +1,5 @@
 .intro {
-    margin-left: 148px;
+    margin: 0 auto 92px 148px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -7,21 +7,24 @@
     max-width: 690px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .intro {
-        margin-left: 48px;
+        margin: 0 auto 92px 48px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro {
-        margin: 88px 24px;
+        min-width: 720px;
+        margin: 0 24px 88px 24px;
+        align-items: center;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro {
-        margin: 64px 16px;
-        max-width: 288px;
+        align-items: center;
+        margin: 0 16px 64px 16px;
+        min-width: 288px;
     }
 }

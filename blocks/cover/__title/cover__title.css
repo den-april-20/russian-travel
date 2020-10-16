@@ -6,23 +6,24 @@
     max-width: 560px;
     font-weight: 900;
     z-index: 3;
+    align-self: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__title {
         margin: 195px 232px 0 232px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover__title {
         margin: 115px 104px 0 104px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__title {
-        margin: 33px 16px 16px 16px;
+        margin: 33px 16px 0 16px;
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
