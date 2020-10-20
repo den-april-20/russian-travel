@@ -5,8 +5,8 @@
     line-height: 12px;
     letter-spacing: 0.2em;
     max-width: 456px;
-    position: absolute;
     bottom: 34px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1023px) {
