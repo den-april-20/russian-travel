@@ -1,0 +1,48 @@
+.cover__background {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../__background/background.png');
+        margin: 0 48px 0 48px;
+        height: 760px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    
+    .cover__background::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #2A2C2F;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: .3;
+        object-fit: cover;
+    }
+    
+    .cover__background:hover::after {
+        opacity: .8;
+    }
+    
+    @media screen and (max-width: 1279px) {
+        .cover__background {
+            height: 640px;
+            margin: 0;
+        }
+    }
+    
+    @media screen and (max-width: 1023px) {
+        .cover__background {
+            height: 480px;
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        .cover__background {
+            height: 200px;
+        }
+    }
+}
