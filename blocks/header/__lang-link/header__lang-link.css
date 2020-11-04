@@ -1,34 +1,13 @@
 .header__lang-link {
-    float: right;
-    margin: 0;
-    margin-top: 46px;
-    font-size: 24px;
-    line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
-    text-align: right;
-    margin-right: 48px;
 }
 
-.header__lang-link:last-child {
-    margin-right: 18px;
+.header__lang-link:first-child {
+    margin-right: 16px;
+    text-decoration: underline;
 }
 
 .header__lang-link:hover {
     opacity: 0.8;
-}
-
-@media screen and (max-width: 1023px) {
-    .header__lang-link {
-        margin-right: 24px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .header__lang-link {
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 20px;
-        margin-right: 16px;
-    }
 }
