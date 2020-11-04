@@ -4,7 +4,7 @@
         flex-direction: column;
         background-image: url('../__background/background.png');
         margin: 0 48px 0 48px;
-        height: 760px;
+        min-height: 760px;
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
@@ -29,19 +29,19 @@
     
     @media screen and (max-width: 1279px) {
         .cover__background {
-            height: 640px;
+            min-height: 640px;
             margin: 0;
         }
     }
     
     @media screen and (max-width: 1023px) {
         .cover__background {
-            height: 480px;
+            min-height: 480px;
         }
     }
     
     @media screen and (max-width: 767px) {
         .cover__background {
-            height: 200px;
+            min-height: 200px;
         }
     }
